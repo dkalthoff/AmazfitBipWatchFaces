@@ -1,0 +1,110 @@
+{
+    "Background": {
+        "Image": {
+            "ImageIndex": 301,
+            "X": 0,
+            "Y": 0
+        }
+    },
+    "Time": {
+        "Hours": {
+            "Ones": {
+                "ImageIndex": 255,
+                "ImagesCount": 10,
+                "X": 86,
+                "Y": 0
+            },
+            "Tens": {
+                "ImageIndex": 255,
+                "ImagesCount": 10,
+                "X": 57,
+                "Y": 0
+            }
+        },
+        "Minutes": {
+            "Ones": {
+                "ImageIndex": 255,
+                "ImagesCount": 10,
+                "X": 86,
+                "Y": 100
+            },
+            "Tens": {
+                "ImageIndex": 255,
+                "ImagesCount": 10,
+                "X": 56,
+                "Y": 100
+            }
+        },
+        "AmPm": {
+            "X": 112,
+            "Y": 131,
+            "ImageIndexAm": 233,
+            "ImageIndexPm": 234
+        }
+    },
+    "Date": {
+        "WeekDay": {
+            "X": 4,
+            "Y": 13,
+            "ImageIndex": 210,
+            "ImagesCount": 7
+        },
+        "MonthAndDay": {
+            "TwoDigitsMonth": false,
+            "TwoDigitsDay": false,
+            "OneLine": {
+                "Number": {
+                    "TopLeftX": 1,
+                    "TopLeftY": 2,
+                    "BottomRightX": 43,
+                    "BottomRightY": 11,
+                    "Alignment": "TopLeft",
+                    "Spacing": 2,
+                    "ImageIndex": 200,
+                    "ImagesCount": 10
+                },
+                "DelimiterImageIndex": 219
+            }
+        }
+    },
+    "Status": {
+        "Bluetooth": {
+            "Coordinates": {
+                "X": 162,
+                "Y": 12
+            },
+            "ImageIndexOn": 220,
+            "ImageIndexOff": 221
+        }
+    },
+    "Battery": {
+        "Icon": {
+            "X": 155,
+            "Y": 0,
+            "ImageIndex": 225,
+            "ImagesCount": 6
+        }
+    },
+    "Weather": {
+        "Temperature": {
+            "Today": {
+                "OneLine": {
+                    "Number": {
+                        "TopLeftX": 124,
+                        "TopLeftY": 165,
+                        "BottomRightX": 174,
+                        "BottomRightY": 174,
+                        "Alignment": "TopLeft",
+                        "Spacing": 1,
+                        "ImageIndex": 200,
+                        "ImagesCount": 10
+                    },
+                    "MinusSignImageIndex": 217,
+                    "DelimiterImageIndex": 219,
+                    "AppendDegreesForBoth": false,
+                    "DegreesImageIndex": 302
+                }
+            }
+        }
+    }
+}
